@@ -8,7 +8,7 @@ const Header = ({ title, onClick, showForm }) => {
       <h1>{title}</h1>
       <Button
         text={`${showForm ? 'Close' : 'Add'}`}
-        color={`${showForm ? 'orange' : 'brown'}`}
+        color={`${showForm ? '#d41e11' : '#009688'}`}
         onClick={onClick}
       />
     </header>
